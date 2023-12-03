@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hide{
+    display: none !important;
+}
+
+.main-container{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #360369;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 0px 60px;
+}
+
+.new-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    background-color: #360369;
+        height: 100%;
+
+}
+#heading{
+   color: white;
+   font-size: 25px;
+}
+
+#sub-heading{
+    color: #714d95;
+}
+
+#lat,#long{
+    color: white;
+    padding: 7px 50px;
+    background-color: #270846;
+}
+
+#landBottum{
+    height: 200px;
+}
+
+.WeatherData{
+    display: flex;
+    gap: 30px;
+    width: 60%;
+    flex-wrap: wrap;
+}
+.DataContainer{
+    background-color: #270846;
+     padding: 5px 10px;
+    color: white;
+    border: 1px solid black;
+    width: fit-content;
+  border-radius: 5px;
+}

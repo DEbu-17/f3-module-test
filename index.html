@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section class="main-container">
+      <h1>Weather API</h1>
+      <button class="btn">Fetch Data</button>
+     
+    </section>
+    <section class="new-section hide">
+      <div id="heading">Welcome To the weather app</div>
+      <div id="sub-heading">Here is your current Location</div>
+      <div>
+        <span id="lat">lat</span> <span id="long">long</span>
+      </div>
+      <div>
+         <iframe
+       id="iframe"
+       
+      ></iframe>
+     </div>
+
+
+      
+    </section>
+    
+   <section>
+        <div id="landBottum" class="hide">
+              <h2>Your Weather Data</h2>
+              <div class="WeatherData">
+               
+                 
+                <div class="DataContainer">Location : <span id="dateName">New Delh</span></div>
+                <div class="DataContainer">Wind Speed : <span id="wind"></span>kmph</div>
+                <div class="DataContainer">Humidity : <span id="humidity">10</span></div>
+                <div class="DataContainer">Time Zone<span id="time">GMT +5:30</span></div>
+                <div class="DataContainer">Pressure: <span id="pressure">10atm</span></div>
+                <div class="DataContainer">Wind Direction : <span id="direction">North West</span></div>
+                <div class="DataContainer">UV Index : <span id="uv">500</span></div>
+                <div class="DataContainer">Feels like: <span id="feels">30</span>°</div>
+
+                <!-- <div class="DataContainer"><span></span></div> -->
+
+                
+              </div>
+        </div>
+     
+    </section>
+     
+  
+
+    <script src="./script.js"></script>
+  </body>
+</html>
